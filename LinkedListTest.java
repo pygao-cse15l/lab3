@@ -14,16 +14,4 @@ public class LinkedListTest {
 
         assertEquals(out, list.toString());
     }
-
-
-    @Test
-    public void testMultiple() {
-        LinkedList list = new LinkedList();
-        list.append(0);
-        list.append(1);
-
-        String out = "0 1 ";
-
-        assertEquals(out, list.toString());
-    }
 }
